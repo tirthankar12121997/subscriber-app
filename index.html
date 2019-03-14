@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Directory</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div id="header">PHONE DIRECTORY</div>
+	<div class="content">
+		<div id="add">
+			<button id="back">BACK</button><button id="add1">ADD</button>
+		</div>
+		<div id="details">
+			Name : <br/>
+			<input class="txtfields" id="nametxt" type="text" /> <br/>
+			Phone : <br/>
+			<input class="txtfields" id="phonetxt" type="text" />
+			<div class="subinput">
+				<b class="subhead">Subscriber to be added:</b> <br/>
+				Name: <span id="showname"></span><br/>
+				Phone: <span id="showphone"></span><br/><br/>
+				<button id="add2">ADD</button>
+			</div>
+		</div>
+		<div id="display">
+			<table id="displaytable">
+				<tr>
+					<th style="width: 38%;">NAME</th>
+					<th style="width: 38%;">PHONE</th>
+					<th style="width: 24%;"></th>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="footer"></div>
+	<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
